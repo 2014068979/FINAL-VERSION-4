@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Order now at Dimsum Treats!</title>
+</head>
+
+<style>
+body {
+background-image: url("bg.png");
+}
+button { 
+  width:200px; 
+} 
+</style>
+
+<body>
+
+<img src = "dt.jpg" alt = "banner" style = "width: 1350px; height: 343px;">
+<div class="btn-group btn-group-lg" align = "right">
+
+  <button type="button" class="btn btn-primary" onClick="parent.location='Home.html' ">Home</button>
+  <button type="button" class="btn btn-primary" onClick="parent.location='Location.html' ">Location</button>
+  <button type="button" class="btn btn-primary" onClick="parent.location='OrderList.html' ">Menu</button>
+  <button type="button" class="btn btn-primary" onClick="parent.location='PlaceOrder.html' ">Place Order</button>
+</div><br><br>
+
+<body bgcolor = "#E6E6FA">
+<font color="yellow">
+
+<div align ="center">
+  <h1> PLACE YOUR ORDERS HERE</h1>
+</div>
+
+<form method = "post" action = "Order" >
+<div align = "left">
+   <h3>Dimsum:</h3>        
+  <input type = "text" maxlength = "5" style = "width:20px" name = "sps"value="0"> 
+  Special Siomai<br><br>  
+  <input type = "text" maxlength = "5" style = "width:20px" name = "shark"value="0"> 
+  Sharksfin Siomai<br><br> 
+  <input type = "text" maxlength = "5" style = "width:20px" name = "mms"value="0">
+   Meaty Mushroom Siomai<br><br> 
+  <input type = "text" maxlength = "5" style = "width:20px" name = "pqs"value="0">  
+  Pork and Quail Egg Siomai<br><br>
+  <input type = "text" maxlength = "5" style = "width:20px" name = "js"value="0">
+  Japanese Siomai<br><br>
+  <input type = "text" maxlength = "5" style = "width:20px" name = "cs"value="0">
+  Chicken Chinese Siomai<br><br>
+  
+  
+  
+  <h3>Rice Toppings:</h3>
+  
+  <input type = "text" maxlength = "5" style = "width:20px" name = "pork"value="0">
+  Porky Chops<br><br>
+  <input type = "text" maxlength = "5" style = "width:20px" name = "spare"value="0">
+  Special Spareribs<br><br>
+  <input type = "text" maxlength = "5" style = "width:20px" name = "chic"value="0">
+  Chicken and Mushroom<br><br>
+  
+  <h3>Add-ons:</h3>
+  <input type = "text" maxlength = "5" style = "width:20px" name = "rice"value="0">
+  Plain Rice<br><br>
+  <input type = "text" maxlength = "5" style = "width:20px" name = "yang"value="0">
+  Yangchow<br><br>
+  
+  
+  <h3>Beverages:</h3>
+  <input type = "text" maxlength = "5" style = "width:20px" name = "green"value="0">
+  Green Iced Tea<br><br>
+   <input type = "text" maxlength = "5" style = "width:20px" name = "red"value="0">
+  Red Iced Tea<br><br>
+   <input type = "text" maxlength = "5" style = "width:20px" name = "coffee" value="0">
+  Cool Coffee<br><br>
+ </div> 
+ 
+ Please input contact details to continue your order<br>
+ <input type = "text" maxlength = "11"  name = "contact"><br>
+ <input type = "submit" value = "Order"><br><br>
+ 
+</form>
+</body>
+</html>
